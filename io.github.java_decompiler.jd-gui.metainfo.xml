@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<component type="desktop">
-  <!--Created with jdAppdataEdit 5.1-->
+<component type="desktop-application">
+  <!--Created with jdAppStreamEdit 8.0-->
   <id>io.github.java_decompiler.jd-gui</id>
   <name>JD-GUI</name>
   <summary>A standalone graphical utility that displays Java sources from CLASS files</summary>
-  <developer_name>Java Decompiler project</developer_name>
-  <launchable type="desktop-id">io.github.java_decompiler.jd-gui.desktop</launchable>
+  <developer id="io.github.java_decompiler">
+    <name>Java Decompiler project</name>
+  </developer>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0</project_license>
+  <project_license>GPL-3.0-only</project_license>
   <description>
     <p>JD-GUI is a standalone graphical utility that displays Java source codes of ".class" files. You can browse the reconstructed source code with the JD-GUI for instant access to methods and fields.</p>
   </description>
@@ -85,7 +86,9 @@
     <control>keyboard</control>
   </recommends>
   <content_rating type="oars-1.1"/>
+  <launchable type="desktop-id">io.github.java_decompiler.jd-gui.desktop</launchable>
   <provides>
+    <binary>jd-gui</binary>
     <mediatype>application/x-java-archive</mediatype>
     <mediatype>application/java-archive</mediatype>
     <mediatype>application/x-jar</mediatype>
